@@ -4,7 +4,7 @@
 With this seed project you will be able to get your [Hadron](https://github.com/hadronjs/hadron) blog up and running
 on the OpenShift PaaS in around 5 minutes (...and for free BTW).
 
-* Create a free account at [http://openshift.redhat.com](http://openshift.redhat.com) if you don't have one yet.
+* Create a free account at [https://www.openshift.com](https://www.openshift.com/) if you don't have one yet.
 * Install the `rhc` utility for your platform([instructions](https://www.openshift.com/developers/rhc-client-tools-install)).
 * Create a namespace, if you haven't already done so
 ```
