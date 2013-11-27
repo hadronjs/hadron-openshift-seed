@@ -47,4 +47,5 @@ $ git push
 ```
 
 * That's it, you can now access Hadron at `http://hadron-$yournamespace.rhcloud.com`
+* **Now go and change your admin password!** 
 
