@@ -30,3 +30,13 @@ if [ -f "${OPENSHIFT_REPO_DIR}"/package.json ]; then
    (cd "${OPENSHIFT_REPO_DIR}"; export TMPDIR="/tmp"; npm install -d)
 fi
 
+
+#Hadron
+export NODEV_ENV=production
+
+cd ${OPENSHIFT_REPO_DIR}
+npm rebuild
+node_modules/grunt-cli/bin/grunt install
+node_modules/grunt-cli/bin/grunt build
+
+
