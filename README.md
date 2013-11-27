@@ -36,7 +36,7 @@ $ git pull -s recursive -X theirs hadron-openshift master
 
 * Install npm dependencies
 ```
-$ npm install
+$ npm install --production
 ```
 
 * Then push the repo to OpenShift
@@ -47,5 +47,6 @@ $ git push
 ```
 
 * That's it, you can now access Hadron at `http://hadron-$yournamespace.rhcloud.com`
-* **Now go and change your admin password!** 
+* Access the admin interface at `http://hadron-$yournamespace.rhcloud.com/admin`. Use admin/admin to login 
+  (**change the admin password first thing after login!**)
 
