@@ -16,6 +16,10 @@ $ rhc domain create <yournamespace>
 $ rhc app create -a hadron -t nodejs-0.10
 ```
 
+* Cleanup your new project
+$ cd hadron
+$ rm -rf ./node_modules server.js index.html deplist.txt
+
 * Checkout the `hadron-seed` repository
 ```
 $ cd hadron
@@ -29,8 +33,15 @@ $ git remote add hadron-openshift -m master git://github.com/hadronjs/hadron-ope
 $ git pull -s recursive -X theirs hadron-openshift master
 ```
 
+* Install npm dependencies
+```
+$ npm install
+```
+
 * Then push the repo to OpenShift
 ```
+$ git add -A
+$ git commit -m "Deploying initial version"
 $ git push
 ```
 
