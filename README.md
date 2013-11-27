@@ -17,8 +17,10 @@ $ rhc app create -a hadron -t nodejs-0.10
 ```
 
 * Cleanup your new project
+```
 $ cd hadron
 $ rm -rf ./node_modules server.js index.html deplist.txt
+```
 
 * Checkout the `hadron-seed` repository
 ```
@@ -45,5 +47,5 @@ $ git commit -m "Deploying initial version"
 $ git push
 ```
 
-* That's it, you can now access Hadron at http://hadron-$yournamespace.rhcloud.com
+* That's it, you can now access Hadron at `http://hadron-$yournamespace.rhcloud.com`
 
