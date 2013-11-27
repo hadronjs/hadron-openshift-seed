@@ -24,7 +24,6 @@ $ rm -rf ./node_modules server.js index.html deplist.txt
 
 * Checkout the `hadron-seed` repository
 ```
-$ cd hadron
 $ git remote add hadron-seed -m master git://github.com/hadronjs/hadron-seed.git
 $ git pull -s recursive -X theirs hadron-seed master
 ```
