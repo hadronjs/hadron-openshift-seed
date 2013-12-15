@@ -24,13 +24,13 @@ $ rm -rf ./node_modules server.js index.html deplist.txt
 
 * Checkout the `hadron-seed` repository
 ```
-$ git remote add hadron-seed -m master git://github.com/hadronjs/hadron-seed.git
+$ git remote add hadron-seed -m master https://github.com/hadronjs/hadron-seed.git
 $ git pull -s recursive -X theirs hadron-seed master
 ```
 
 * Checkout the `hadron-openshift` repository
 ```
-$ git remote add hadron-openshift -m master git://github.com/hadronjs/hadron-openshift-seed.git
+$ git remote add hadron-openshift -m master https://github.com/hadronjs/hadron-openshift-seed.git
 $ git pull -s recursive -X theirs hadron-openshift master
 ```
 
